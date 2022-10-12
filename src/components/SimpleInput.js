@@ -56,7 +56,7 @@ const SimpleInput = (props) => {
         type='text' 
         id='name' />
 
-        {nameIsValid && (
+        {nameInputIsinvalid && (
           <p className='error-text'>Name cannot be empty</p>
         )}
 
